@@ -1,0 +1,4 @@
+
+SELECT M.title, M.year , M.rating
+FROM movies M
+ORDER BY M.year ASC, M.rating DESC;
